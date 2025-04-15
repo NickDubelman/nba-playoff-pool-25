@@ -12,11 +12,8 @@
     .filter((game) => game.homeTeamScore > 0 || game.awayTeamScore > 0)
     .sort((a, b) => (a.date > b.date ? -1 : 1))
 
-  if (startedGames.length === 0) {
-    throw new Error('could not get any games')
-  }
+  const date = startedGames.length > 0 ? startedGames[0].date : null
 
-  const { date } = startedGames[0]
   const statsForGames = gameStats.filter(
     (stats) => stats.game.date.getTime() === date.getTime(),
   )
@@ -31,17 +28,23 @@
     })
     .slice(0, numPlayers)
 
-  $: {
-    if (topPerformances.length === 0) {
-      throw new Error('could not get top performers')
-    }
-  }
+  $: lastPerformance =
+    topPerformances.length > 0
+      ? topPerformances[topPerformances.length - 1]
+      : null
 
-  $: lastPerformance = topPerformances[topPerformances.length - 1]
-  $: maxPoints = d3.max(topPerformances.map((p) => p.points))
+  $: maxPoints =
+    topPerformances.length > 0
+      ? d3.max(topPerformances.map((p) => p.points))
+      : 0
+
+  $: pointsDomain = lastPerformance
+    ? [Math.min(lastPerformance.points - 2, maxPoints / 2), maxPoints]
+    : [0, maxPoints]
+
   $: pointsColor = d3
     .scaleSequential()
-    .domain([Math.min(lastPerformance.points - 2, maxPoints / 2), maxPoints])
+    .domain(pointsDomain)
     .interpolator(d3.interpolateHsl('white', '#38c434CC'))
 
   function getGameStatus(time, status) {
