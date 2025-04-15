@@ -104,7 +104,7 @@ const participants: ParticipantWithPlayers[] = [
       'Aaron Gordon',
       'Rudy Gobert',
       'Donte DiVincenzo',
-      // TODO:
+      'Jaden McDaniels',
     ],
   },
   {
@@ -118,7 +118,7 @@ const participants: ParticipantWithPlayers[] = [
       'Max Strus',
       'Damian Lillard',
       'Buddy Hield',
-      // TODO:
+      'Dalton Knecht',
     ],
   },
   {
@@ -132,7 +132,7 @@ const participants: ParticipantWithPlayers[] = [
       'Jaren Jackson Jr.',
       'Bogdan Bogdanovic',
       'Tobias Harris',
-      // TODO:
+      'Andrew Nembhard',
     ],
   },
   {
@@ -146,7 +146,7 @@ const participants: ParticipantWithPlayers[] = [
       'Naz Reid',
       'Franz Wagner',
       'Brook Lopez',
-      // TODO:
+      'Kevin Porter Jr.',
     ],
   },
   {
@@ -160,7 +160,7 @@ const participants: ParticipantWithPlayers[] = [
       'Kyle Kuzma',
       'Dillon Brooks',
       'Miles McBride',
-      // TODO:
+      'Dyson Daniels',
     ],
   },
   {
