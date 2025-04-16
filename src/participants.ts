@@ -20,7 +20,7 @@ const participants: ParticipantWithPlayers[] = [
       'Cason Wallace',
       'Michael Beasley',
       'Desmond Bane',
-      // TODO:
+      'Jalen Duren',
     ],
   },
   {
@@ -34,7 +34,7 @@ const participants: ParticipantWithPlayers[] = [
       'Al Horford',
       'Sam Hauser',
       'Jaxson Hayes',
-      // TODO:
+      'Demar Derozan',
     ],
   },
   {
@@ -48,7 +48,7 @@ const participants: ParticipantWithPlayers[] = [
       'Josh Hart',
       'Obi Toppin',
       'Russell Westbrook',
-      // TODO:
+      'Gabe Vincent',
     ],
   },
   {
@@ -62,7 +62,7 @@ const participants: ParticipantWithPlayers[] = [
       'Paolo Banchero',
       'Alex Caruso',
       'Trae Young',
-      // TODO:
+      'Scottie Pippen Jr.',
     ],
   },
   {
@@ -76,7 +76,7 @@ const participants: ParticipantWithPlayers[] = [
       'Julius Randle',
       'Jabari Smith Jr.',
       'Bobby Portis',
-      // TODO:
+      'Santi Aldama',
     ],
   },
   {
@@ -90,7 +90,7 @@ const participants: ParticipantWithPlayers[] = [
       'Fred Vanvleet',
       'Dorian Finney-Smith',
       'Derrick Jones Jr.',
-      // TODO:
+      'Tari Eason',
     ],
   },
   {
