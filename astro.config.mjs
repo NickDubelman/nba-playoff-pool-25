@@ -9,4 +9,7 @@ export default defineConfig({
   integrations: [db(), svelte(), tailwind()],
   output: 'server',
   adapter: netlify(),
+  security: {
+    checkOrigin: false,
+  },
 })
