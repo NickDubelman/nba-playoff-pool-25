@@ -34,7 +34,7 @@ const participants: ParticipantWithPlayers[] = [
       'Al Horford',
       'Sam Hauser',
       'Jaxson Hayes',
-      'Demar Derozan',
+      'DeMar DeRozan',
     ],
   },
   {
