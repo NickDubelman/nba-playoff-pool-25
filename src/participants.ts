@@ -62,7 +62,7 @@ const participants: ParticipantWithPlayers[] = [
       'Paolo Banchero',
       'Alex Caruso',
       'Trae Young',
-      'Scottie Pippen Jr.',
+      'Scotty Pippen Jr.',
     ],
   },
   {
