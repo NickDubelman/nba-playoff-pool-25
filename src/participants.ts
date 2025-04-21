@@ -83,11 +83,11 @@ const participants: ParticipantWithPlayers[] = [
     name: 'Robbie',
     draftOrder: 6,
     players: [
-      'Lebron James',
+      'LeBron James',
       'Kawhi Leonard',
       'Norman Powell',
       'Ty Jerome',
-      'Fred Vanvleet',
+      'Fred VanVleet',
       'Dorian Finney-Smith',
       'Derrick Jones Jr.',
       'Tari Eason',
