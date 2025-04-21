@@ -18,7 +18,7 @@ const participants: ParticipantWithPlayers[] = [
       'Pascal Siakam',
       'Myles Turner',
       'Cason Wallace',
-      'Michael Beasley',
+      'Malik Beasley',
       'Desmond Bane',
       'Jalen Duren',
     ],
