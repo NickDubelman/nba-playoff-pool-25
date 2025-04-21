@@ -43,8 +43,8 @@ const participants: ParticipantWithPlayers[] = [
     players: [
       'Donovan Mitchell',
       'Austin Reaves',
-      'DeAndre Hunter',
-      'Benedict Mathurin',
+      "De'Andre Hunter",
+      'Bennedict Mathurin',
       'Josh Hart',
       'Obi Toppin',
       'Russell Westbrook',
